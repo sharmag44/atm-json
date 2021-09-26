@@ -4,10 +4,17 @@ function register() {
   let password = document.getElementById("password").value;
   let account = parseInt(document.getElementById("account").value);
   let money = parseInt(document.getElementById("money").value);
+  if (user !==null && password !==null && account !==null && money !==null ) {
+	  
   var arr = {
     data: [{ user: user, password: password, account: account, money: money }],
   };
   localStorage.setItem("myarr", JSON.stringify(arr));
+  }
+  else{ 
+  alert("fill all inputs");
+  window.location.reload();
+  }
 }
 
 //login data
