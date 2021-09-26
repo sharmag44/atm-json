@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.form-group {
+  padding: 5px 20px;
+}
+.btn {
+  padding: 5px;
+  position: relative;
+  top: 30px;
+  left: 150px;
+}
+.form-control {
+  width: 500px !important;
+}

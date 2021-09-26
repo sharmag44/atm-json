@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dashboard.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <h3 class="text-center">ATM Machine</h3>
+    <div class="container">
+      <div class="row pt-5">
+        <div class="col">
+          <a id="withdraw" class="btn btn-danger btn-lg" href="./withdraw.html"
+            >Withdraw</a
+          >
+        </div>
+        <div class="col">
+          <a id="deposit" class="btn btn-success btn-lg" href="./deposit.html"
+            >Deposit</a
+          >
+        </div>
+        <div class="col">
+          <a
+            onclick="check()"
+            ic="check"
+            class="btn btn-primary btn-lg"
+            href="#"
+            >Balance</a
+          >
+        </div>
+        <!-- <div class="col">
+          <a id="update" class="btn btn-info btn-lg">Update</a>
+        </div> -->
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
